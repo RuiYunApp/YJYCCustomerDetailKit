@@ -30,13 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YJYCCustomerDetailKit/Classes/**/*'
+  s.source_files = 'YJYCCustomerDetailKit/Classes/**/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'YJYCCustomerDetailKit' => ['YJYCCustomerDetailKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'YJYCCustomerDetailKit' => ['YJYCCustomerDetailKit/Assets/**/*.xcassets','YJYCCustomerDetailKit/Classes/**/*.xib']
+  }
+  
+  s.dependency 'JXCategoryView'
+  s.dependency 'JXPagingView/Pager'
+  s.dependency 'FCCollectionViewLayout'
+  s.dependency 'FCBaseKit'
+  s.dependency 'FCCategoryOCKit'
+  s.dependency 'MJRefresh'
+  s.dependency 'Masonry'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end

@@ -1,0 +1,6 @@
+framework module YJYCCustomerDetailKit {
+  umbrella header "YJYCCustomerDetailKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

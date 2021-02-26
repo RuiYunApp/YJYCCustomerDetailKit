@@ -1,0 +1,67 @@
+PODS:
+  - CTMediator (44)
+  - FCBaseKit (0.0.1)
+  - FCCategoryOCKit (0.1.15)
+  - FCCollectionViewLayout (0.0.9):
+    - FCCollectionViewLayout/ObjC (= 0.0.9)
+    - FCCollectionViewLayout/Swift (= 0.0.9)
+  - FCCollectionViewLayout/ObjC (0.0.9)
+  - FCCollectionViewLayout/Swift (0.0.9)
+  - JXCategoryView (1.5.8)
+  - JXPagingView/Pager (2.0.13)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - YJYCCustomerDetailKit (0.1.0):
+    - FCBaseKit
+    - FCCategoryOCKit
+    - FCCollectionViewLayout
+    - JXCategoryView
+    - JXPagingView/Pager
+    - Masonry
+    - MJRefresh
+
+DEPENDENCIES:
+  - CTMediator
+  - FCBaseKit (from `https://github.com/Q007shi/FCBaseKit.git`)
+  - FCCategoryOCKit (from `https://github.com/Q007shi/FCCategoryOCKit.git`)
+  - YJYCCustomerDetailKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+    - FCCollectionViewLayout
+    - JXCategoryView
+    - JXPagingView
+    - Masonry
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  FCBaseKit:
+    :git: https://github.com/Q007shi/FCBaseKit.git
+  FCCategoryOCKit:
+    :git: https://github.com/Q007shi/FCCategoryOCKit.git
+  YJYCCustomerDetailKit:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  FCBaseKit:
+    :commit: 9992dd0827cce19ee4f5ea5f43e1214462f7a31e
+    :git: https://github.com/Q007shi/FCBaseKit.git
+  FCCategoryOCKit:
+    :commit: b2e42852cdfc3190404cc606c41f4358de26b2e6
+    :git: https://github.com/Q007shi/FCCategoryOCKit.git
+
+SPEC CHECKSUMS:
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  FCBaseKit: 259a074ae4c802481a598dd5bf8867e63c5bdd75
+  FCCategoryOCKit: 05a9d0ab9a8ec644d4e07d73efd6caede804138a
+  FCCollectionViewLayout: 5a546a26f641bacbbc907dc1ef2a8105b490f726
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  JXPagingView: 821ed274f09eaf2843a96c3a74e9d138e27d9730
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  YJYCCustomerDetailKit: a9ede85e6c6523dafae620f1807ca5730649ee8d
+
+PODFILE CHECKSUM: 2d49f1657430fc591fa3438fbab9516dffdc777d
+
+COCOAPODS: 1.10.1
